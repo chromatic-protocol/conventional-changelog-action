@@ -17,8 +17,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - name: Generate changelog
@@ -52,8 +52,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - name: Generate changelog
@@ -87,8 +87,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - name: Generate changelog
@@ -122,8 +122,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - name: Generate changelog
@@ -158,8 +158,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - run: touch ./test-file-empty.json
@@ -193,8 +193,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
 
       - run: git tag | xargs git tag -d
       - name: Create fake tag
@@ -223,8 +223,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
 
       - run: git tag | xargs git tag -d
       - name: Create fake tag
@@ -255,8 +255,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - run: git tag | xargs git tag -d
@@ -283,8 +283,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
 
       - run: git tag | xargs git tag -d
       - name: Create fake tag
@@ -315,8 +315,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
 
       - run: git tag | xargs git tag -d
       - name: Create fake tag
@@ -349,8 +349,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
 
       - run: "git add . && git commit --allow-empty -m 'fix: Added fake file so version would be bumped'"
 
@@ -386,8 +386,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
 
       - run: "git add . && git commit --allow-empty -m 'fix: Added fake file so version would be bumped'"
 
@@ -424,8 +424,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
 
       - run: "git add . && git commit --allow-empty -m 'fix: Added fake file so version would be bumped'"
 
@@ -468,8 +468,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - name: Generate changelog
@@ -539,8 +539,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - run: touch ./test-file-empty.yaml
@@ -578,8 +578,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - name: Generate changelog
@@ -615,8 +615,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - name: Generate changelog
@@ -650,8 +650,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - name: Generate changelog
@@ -687,8 +687,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - name: Generate changelog
@@ -724,8 +724,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - run: touch ./test-file-empty.toml
@@ -764,8 +764,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - run: test -f pre-commit.test.json && (echo should not be here yet && exit 1) || exit 0
@@ -797,8 +797,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - run: test -f pre-changelog-generation.test.json && (echo should not be here yet && exit 1) || exit 0
@@ -832,8 +832,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - name: Generate changelog
@@ -874,8 +874,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - name: Generate Changelog
@@ -908,8 +908,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - name: Generate changelog
@@ -945,8 +945,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - name: Generate changelog
@@ -981,8 +981,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - name: Generate changelog
@@ -1018,8 +1018,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - name: Generate changelog
@@ -1054,8 +1054,8 @@ jobs:
       - run: npm ci --prod
       - run: npm run build
 
-      - run: "git config --global user.email 'changelog@github.com'"
-      - run: "git config --global user.name 'Awesome Github action'"
+      - run: "git config --global user.email 'noreply-chromatic-protocol@chromatic.finance'"
+      - run: "git config --global user.name 'Changelog Action'"
       - run: "git add . && git commit --allow-empty -m 'feat: Added fake file so version will be bumped'"
 
       - name: Generate changelog

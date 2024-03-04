@@ -23982,8 +23982,8 @@ module.exports = new (class Git {
       const { EXPECTED_TAG, SKIPPED_COMMIT, EXPECTED_NO_PUSH, SKIPPED_TAG, SKIPPED_PULL, SKIP_CI } = process.env
 
       const expectedCommands = [
-        'git config user.name "Conventional Changelog Action"',
-        'git config user.email "conventional.changelog.action@github.com"',
+        'git config user.name "Changelog Action"',
+        'git config user.email "noreply-chromatic-protocol@chromatic.finance"',
       ]
 
       if (!SKIPPED_PULL) {

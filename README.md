@@ -6,8 +6,8 @@ This action will bump version, tag commit and generate a changelog with conventi
 
 - **Optional** `github-token`: Github token, if different permissions required than from checkout.
 - **Optional** `git-message`: Commit message that is used when committing the changelog.
-- **Optional** `git-user-name`: The git user.name to use for the commit. Default `Conventional Changelog Action`
-- **Optional** `git-user-email`: The git user.email to use for the commit. Default `conventional.changelog.action@github.com`
+- **Optional** `git-user-name`: The git user.name to use for the commit. Default `Changelog Action`
+- **Optional** `git-user-email`: The git user.email to use for the commit. Default `noreply-chromatic-protocol@chromatic.finance`
 - **Optional** `git-pull-method`: The git pull method used when pulling all changes from remote. Default `--ff-only`
 - **Optional** `git-push`: Push all the GIT changes. Default `true`
 - **Optional** `git-branch`: The branch used to push. Default is the current branch (`${{ github.ref }}`)
